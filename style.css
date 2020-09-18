@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    background: #fff;
+    color: #666666;
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    color: white;
+    transition: 0.5s;
+}
+
+a:hover, a:active, a:focus {
+    color: whitesmoke;
+    outline: none;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+/* Header & Welcome section*/
+#joinbtn{
+    padding-left: 20px;
+    padding-right:20px;
+    margin-right:10px;
+}
+#companyname{
+    color:white;
+    font-family: 'Orbitron', sans-serif;
+}
+#elonMusk{
+    height:250px;
+    transition: transform .5s ease;
+}
+#elonMusk:hover {
+    transform: scale(1.5);
+}
+.carousel-title{
+    padding-bottom:80px;
+    font-family: 'Press Start 2P', cursive;
+    font-size:30px;
+    text-shadow: 6px 7px 6px #000000;
+}
+#occupyMarsheader{
+    font-size:50px;
+    padding-bottom:80px;
+}
+#occupymarsparagraph{
+    padding-bottom:40px;
+    text-shadow: 6px 7px 6px #000000;
+    font-size:21px;
+}
+#blackhole{
+    filter:brightness(70%);
+}
+#astronaut{
+    filter:brightness(50%);
+}
+.carousel-caption p{
+    padding-bottom:50px;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 9px 7px 9px #000000;
+    font-size:21px;
+    font-weight: bold;
+}
+
+/* Featured stories section*/
+#featured-stories{
+    font-size:36px;
+}
+#my-icons .col-lg-3 .card{
+    display: flex !important;
+    align-items: center !important;
+    width: 15rem;
+    border:none;
+}
+#my-icons .col-lg-3 .card .card-body{
+    align-items: center;
+    justify-content: center;
+}
+#my-icons .col-lg-3 .card .card-img-top{
+    height:50px;
+    width:50px;
+}
+#my-icons .col-lg-3 .card .card-body h5{
+    text-align:center;
+}
+#my-icons .col-lg-3 .card .card-body p{
+    text-align: center;
+}
+.mb-1 span{
+    color:white;
+}
+.btn-dark{
+    height:30px;
+    width:90px;
+    text-align: center;
+    background-color: black;
+}
+.btn-dark:hover{
+    opacity: 0.7;
+}
+/* Represent missions section */
+.card-body a{
+    font-size:16px;
+    padding:0px;
+    text-align: center;
+    background-color: black;
+}
+#mission-moto{
+    font-family: "Montserrat", sans-serif;
+    font-size:31px;
+    color:black;
+    text-align:center;
+}
+
+/* Join us campaign section */
+#WhySpace{
+    background-image: url("Images/starsblack.jpg");
+}
+#join-astronomy-video{
+    padding:20px;
+    box-shadow: black;
+    padding-bottom: 10px;
+}
+#campaign-question{
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 9px 7px 9px black;
+    font-size:31px;
+    color:white;
+    text-align:center;
+}
+
+/* Contact us section */
+#contact-form > .btn{
+    height:40px;
+    width:90px;
+    text-align: center;
+}
+#contact-form > .btn:hover{
+    background-color: black;
+}
+.btn-group > .btn{
+    display: flex;
+    padding:15px;
+    margin: 20px;
+}
+/* Footer section */
+#last-par{
+    margin:30px;
+    color:white;
+}
+#last-logo{
+    margin-top:30px;
+    margin-left:30px;
+}
+#credits{
+    color:white;
+}
+#connect{
+    text-decoration: none;
+    color:white;
+}
+.footer-social{
+    margin-top:100px;
+}
+.fa:hover {
+    opacity: 0.7;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube{
+    background: red;
+    color: white;
+}
+
+
+@media (min-width: 1200px) {
+    .carousel-caption p{
+        padding-bottom:140px;
+    }
+    .carousel-title{
+        padding-bottom:180px;
+    }
+    .carousel-caption .btn{
+        font-size:12px;
+    }
+    .card{
+        width:21rem;
+    }
+    #stories-row
+    {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: flex-start !important;
+    }
+    .col-lg-4{
+        display: flex;
+        flex-direction:column;
+    }
+    #campaign-text{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-content: center !important;
+        align-items: center !important;
+    }
+    #campaign-text .btn{
+        margin-top:15px;
+    }
+
+}
+
+
+@media(max-width:1200px)
+{
+    .card{
+        width: 42rem;
+    }
+    #campaign{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        justify-content: center;
+        align-content: center;
+        align-items:center;
+    }
+    #campaign-text{
+        display:flex;
+        flex-direction:column !important;
+        align-items:center;
+        justify-content: center;
+    }
+    #campaign-question{
+        font-size:18px;
+    }
+    #campaign-video{
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+    #join-astronomy-video{
+        width:100%;
+    }
+    #my-icons > .col-sm-12{
+        display: flex !important;
+        justify-content: center;
+
+    }
+    #my-icons > .col-sm-12 > .card{
+        width:100%;
+    }
+    #my-icons > .col-sm-12 > .card > .card-img-top{
+        height:80px;
+        width:80px;
+    }
+    #my-icons > .col-sm-12 > .card > .card-body > h5{
+        font-size:30px;
+    }
+    #my-icons > .col-sm-12 > .card > .card-body > p{
+        font-size: 20px;
+    }
+    #last-button{
+        margin-top:10px;
+        font-size:12px;
+        margin-bottom:30px;
+    }
+    #adresss-section{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+    }
+
+}
+
+
